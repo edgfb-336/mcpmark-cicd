@@ -1,4 +1,7 @@
-var badQuotes = "double quotes";
-var unused = 'unused';
-console.log('console log');
-var missingSemi = 'semi'
+const message = 'Hello World';
+
+function printMessage() {
+    return message;
+}
+
+printMessage();
